@@ -1,0 +1,23 @@
+Conversion de infija a postfija
+
+Ejercicio 1
+
+A-B/(C*D$E)
+
+
+A-B/(C*DE$) potencia
+A-B/(CDE$*) multiplicacion
+A-BCDE$*/ division
+AB-CDE$*/ resta
+AB-CDE$*/  respuesta 
+
+Ejercicio 2
+
+((A+B)*C-(D-E))$(F+G) 
+
+((A+B)C*-(D-E))$(F+G)  multiplicacion
+((AB+)C*-(DE-))$(FG+)  suma y resta
+((AB+)C*(DE--))$(FG+) resta otra vez
+((AB+)C*(DE--))(FG+)$ potencia 
+AB+C*DE--FG+$         respuesta
+
