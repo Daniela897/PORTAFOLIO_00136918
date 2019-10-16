@@ -1,0 +1,90 @@
+#include <string.h>
+#include <stdlib.h>
+#include <iostream>
+
+
+class Lista
+{
+struct nodo
+{
+nodo(): next(0) {}
+int contenido;
+nodo * next;
+};
+nodo * cabeza;
+nodo * cola;
+
+public:
+Lista(): cabeza(0), cola(0) {}
+~Lista()
+{
+nodo * tmp = cabeza;
+while (tmp!=0)
+{
+cabeza = tmp->next;
+delete tmp;
+tmp = cabeza;
+}
+}
+void insert(int i)
+{
+if (cabeza==0)
+{
+cabeza = new nodo();
+cabeza->contenido = i;
+cola = cabeza;
+}
+else
+{
+nodo * temp = new nodo();
+temp->contenido = i;
+cola->next = temp;
+cola=temp;
+}
+}
+std::string listado()
+{
+std::string result;
+nodo * temp = cabeza;
+while (temp!= 0)
+{
+char buffer[50];
+result += itoa(temp->contenido, buffer, 10) + std::string(" ");
+temp = temp->next;
+}
+return result;
+}
+void reversa()
+{
+nodo * tempcola = cola;
+doreversa(cabeza);
+cabeza = tempcola;
+}
+doreversa(nodo * header)
+{
+nodo * temp = header->next;
+if (temp!=0)
+{
+{
+doreversa(temp);
+cola->next = header;
+cola = header;
+cola->next = 0;
+}
+}
+}
+};
+
+int main(int argc, char* argv[])
+{
+Lista lista;
+lista.insert(1);
+lista.insert(2);
+lista.insert(3);
+lista.insert(4);
+std::string s1 = lista.listado();
+lista.reversa();
+std::string s2 = lista.listado();
+std::cout << s1 << "_____" << s2;
+return 0;
+}
