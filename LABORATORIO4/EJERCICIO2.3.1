@@ -1,0 +1,26 @@
+Transformar de infijos a prefijos y postfijos.
+
+a. A+B+C
+Prefijo                  Postfijo
++AB-C                    AB+C-
+-+ABC                    ABC-+
+
+b. (A+B)*(C-D)$E*F
+Prefijo                  Postfijo
+*+AB-CD$E*F              AB+CD-*$EF*
+-*+AB*$EF                AB+CD-*$EF*
+
+C. (A+B)*(D-E)+F)-G
+Prefijo                  Postfijo
+(+AB)*(-DE)+F)-G         (AB+)*(DE-)+F)-G
+*+AB-DE+F-G              AB+DE-*F+G-
+-*+ABDE+F-G              AB+DE-*FG-+
+
+d. A+(((B-C)*(D-E)+F)/G)$(H-J)
+Prefijo                          Postfijo
+A+(((-BC)*(-DE)+F)/G)$(-HJ)      A+(((BC-)*(DE-)F+)/G)$(HJ-)
+(+A-BC*-DE+F/G)$(-HJ)            ABC-+DE-*F+G/HJ-$
+-+ABC*+-DEF/G$-HJ
+*-+ABC+-DEF/G$-HJ
+/*-+ABC+-DEF/G$-HJ
+/*-+ABC$+-DEFG-HJ
