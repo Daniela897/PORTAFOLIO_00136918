@@ -1,0 +1,23 @@
+C:\Users\dtani\RiderProjects\Labo 9\bin\Debug\Labo_9.exe.config
+C:\Users\dtani\RiderProjects\Labo 9\bin\Debug\Labo_9.exe
+C:\Users\dtani\RiderProjects\Labo 9\bin\Debug\Labo_9.pdb
+C:\Users\dtani\RiderProjects\Labo 9\obj\Debug\Labo 9.csprojAssemblyReference.cache
+C:\Users\dtani\RiderProjects\Labo 9\obj\Debug\Labo_9.Properties.Resources.resources
+C:\Users\dtani\RiderProjects\Labo 9\obj\Debug\Labo 9.csproj.GenerateResource.cache
+C:\Users\dtani\RiderProjects\Labo 9\obj\Debug\Labo_9.exe
+C:\Users\dtani\RiderProjects\Labo 9\obj\Debug\Labo_9.pdb
+C:\Users\dtani\RiderProjects\Labo 9\obj\Debug\Labo_9.AddAsignature.resources
+C:\Users\dtani\RiderProjects\Labo 9\obj\Debug\Labo_9.Form1.resources
+C:\Users\dtani\RiderProjects\Labo 9\obj\Debug\Labo_9.inscription.resources
+C:\Users\dtani\RiderProjects\Labo 9\obj\Debug\Labo_9.RegisterStudent.resources
+C:\Users\dtani\RiderProjects\Labo 9\obj\Debug\Labo_9.ViewData.resources
+C:\Users\danie\Downloads\Labo 9\obj\Debug\Labo 9.csprojResolveAssemblyReference.cache
+C:\Users\danie\Downloads\Labo 9\obj\Debug\Labo_9.AddAsignature.resources
+C:\Users\danie\Downloads\Labo 9\obj\Debug\Labo_9.Form1.resources
+C:\Users\danie\Downloads\Labo 9\obj\Debug\Labo_9.inscription.resources
+C:\Users\danie\Downloads\Labo 9\obj\Debug\Labo_9.Properties.Resources.resources
+C:\Users\danie\Downloads\Labo 9\obj\Debug\Labo_9.RegisterStudent.resources
+C:\Users\danie\Downloads\Labo 9\obj\Debug\Labo_9.ViewData.resources
+C:\Users\danie\Downloads\Labo 9\obj\Debug\Labo 9.csproj.GenerateResource.Cache
+C:\Users\danie\Downloads\Labo 9\obj\Debug\Labo_9.exe
+C:\Users\danie\Downloads\Labo 9\obj\Debug\Labo_9.pdb
