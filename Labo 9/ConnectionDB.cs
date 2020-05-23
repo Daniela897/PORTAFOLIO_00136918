@@ -6,10 +6,10 @@ namespace Labo_9
 {
     public static class ConnectionDB
     {
-        private static string host = "ec2-54-165-36-134.compute-1.amazonaws.com",
-            database = "d436esq6uq4ad0",
-            userId = "xetrvskwrvawvr",
-            password = "8715cb4d706a17c7ace77c02a7f2d87ba4dc3739892a90b39218c078a3b42ecc";
+        private static string host = "127.0.0.1",
+            database = "Laboratorio09",
+            userId = "postgres",
+            password = "1109";
 
         private static string sConnection =
             string.Format("Server= {0};Port=5432; User Id={1};Password={2};Database={3};", host, userId, password,

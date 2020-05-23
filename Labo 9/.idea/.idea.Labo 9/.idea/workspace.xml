@@ -30,8 +30,8 @@
         <option value="$PROJECT_DIR$/AddAsignature.cs" />
         <option value="$PROJECT_DIR$/inscription.cs" />
         <option value="$PROJECT_DIR$/ViewData.cs" />
-        <option value="$PROJECT_DIR$/RegisterStudent.cs" />
         <option value="$PROJECT_DIR$/ConnectionDB.cs" />
+        <option value="$PROJECT_DIR$/RegisterStudent.cs" />
       </list>
     </option>
   </component>
@@ -89,6 +89,9 @@
       <workItem from="1590081969117" duration="5875000" />
       <workItem from="1590136380561" duration="22272000" />
       <workItem from="1590226705512" duration="134000" />
+      <workItem from="1590228687405" duration="214000" />
+      <workItem from="1590254270502" duration="1267000" />
+      <workItem from="1590262544267" duration="3927000" />
     </task>
     <servers />
   </component>
@@ -98,21 +101,25 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="WindowStateProjectService">
-    <state width="1323" height="14" key="GridCell.Tab.0.bottom" timestamp="1590069356851">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1590268827059">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590268827059" />
     <state width="1323" height="14" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1590069356851" />
-    <state width="1323" height="14" key="GridCell.Tab.0.center" timestamp="1590069356851">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1590268827057">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590268827057" />
     <state width="1323" height="14" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1590069356851" />
-    <state width="1323" height="14" key="GridCell.Tab.0.left" timestamp="1590069356851">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1590268827056">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590268827056" />
     <state width="1323" height="14" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1590069356851" />
-    <state width="1323" height="14" key="GridCell.Tab.0.right" timestamp="1590069356851">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1590268827058">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590268827058" />
     <state width="1323" height="14" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1590069356851" />
     <state x="275" y="100" key="Rider.ProjectTemplateDialog.Size" timestamp="1590019838539">
       <screen x="0" y="0" width="1366" height="738" />

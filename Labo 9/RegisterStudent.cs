@@ -22,8 +22,8 @@ namespace Labo_9
             {
                 MessageBox.Show("No se pueden dejar campos vacios");
             }
-
-            {
+{
+            
                 try
                 {
                     ConnectionDB.ExecuteNonQuery("INSERT INTO ESTUDIANTE VALUES (" +
@@ -38,8 +38,8 @@ namespace Labo_9
                 {
                     MessageBox.Show("Ha ocurrido un error");
                 }
-            }
-
+            
         }
     }
+}
 }
